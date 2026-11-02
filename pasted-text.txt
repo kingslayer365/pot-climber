@@ -1,0 +1,120 @@
+GAME DEVELOPMENT PROMPT: GETTING OVER IT 2D ONLINE MULTIPLAYER
+
+Create a complete 2D online multiplayer climbing game inspired by Getting Over It with Bennett Foddy.
+
+1. Game Concept
+
+- 2D physics-based climbing game.
+- Same climbing concept as Getting Over It.
+- Players control characters sitting inside pots.
+- Players use a hammer to climb mountains and obstacles.
+- Extremely challenging physics-based gameplay.
+
+2. Graphics and Map
+
+- Recreate the original game's visual atmosphere and art direction as closely as possible.
+- Use a similar mountain environment, obstacles, rocks, trees, and climbing structures.
+- Recreate the same map layout, obstacle placement, and progression.
+- Smooth 2D graphics with detailed backgrounds.
+- Camera follows each player's character.
+
+3. Physics System
+
+Reproduce the original game's physics feel:
+
+- Realistic gravity.
+- Hammer-based movement.
+- Momentum and inertia.
+- Collision detection.
+- Swinging and pushing mechanics.
+- Slippery surfaces.
+- Falling and bouncing.
+- Difficult but consistent controls.
+
+Physics should feel as close to the original game as possible.
+
+4. Online Multiplayer
+
+Implement real-time online multiplayer.
+
+Joining system:
+
+- Player 1 clicks Create Room.
+- Generate a unique 6-digit room code.
+- Player 1 shares the code with friends.
+- Player 2 enters the code and clicks Join Room.
+- Both players enter the same game session.
+- Support 2–8 players per room.
+
+Multiplayer features:
+
+- See other players moving in real time.
+- Synchronize player positions and hammer movements.
+- Synchronize physics and collisions.
+- Show player usernames above characters.
+- Display connection status.
+- Allow players to leave rooms.
+- Automatically reconnect after temporary disconnections.
+
+5. Game Modes
+
+- Multiplayer climbing race.
+- Free climbing together.
+- Challenge friends.
+- Show everyone's climbing progress.
+- Leaderboard showing who reached the highest point.
+
+6. Controls
+
+Mobile Android:
+
+- Touchscreen controls.
+- Virtual joystick or mouse-like hammer control.
+- Smooth hammer movement.
+- Responsive camera.
+
+PC:
+
+- Mouse controls.
+- Keyboard support.
+
+7. Technology
+
+Use:
+
+- Unity 2D.
+- C#.
+- Unity 2D Physics.
+- Photon Fusion or another suitable online multiplayer networking solution.
+- Room-code-based matchmaking.
+- Server-authoritative or properly synchronized physics.
+
+8. Main Menu
+
+Create a polished main menu containing:
+
+- Play Solo
+- Create Multiplayer Room
+- Join Multiplayer Room
+- Settings
+- Exit
+
+9. Mobile Optimization
+
+- Android APK build.
+- Low-end Android device support.
+- 30–60 FPS target.
+- Optimized physics and networking.
+- Simple installation and controls.
+
+10. Important Requirements
+
+- Do not create just a visual prototype.
+- Build an actually playable multiplayer game.
+- Room codes must work between different Android phones over the internet.
+- Players must see each other moving live.
+- Keep the challenging climbing mechanics.
+- Provide complete Unity project structure, scripts, networking setup, and Android build instructions.
+- Develop and test the game step by step.
+
+Final Goal: A 2D online multiplayer climbing game where friends can enter the same room using a code and climb the mountain together with physics inspired by Getting Over It.
