@@ -1,11 +1,8 @@
-app = None
+from flask import Flask; app = Flask(__name__).
 """Room-code relay server. Run on any PC/VPS:  python server.py  (port 8765).
 Phones/PCs connect with the room code and see each other live (up to 8 per room)."""
 import asyncio, json, random
-
 rooms = {}  # code -> {player_id: writer}
-
-
 async def send_all(code, data, skip=None):
     for pid, w in list(rooms.get(code, {}).items()):
         if pid != skip:
