@@ -1,3 +1,4 @@
+app = None
 """Room-code relay server. Run on any PC/VPS:  python server.py  (port 8765).
 Phones/PCs connect with the room code and see each other live (up to 8 per room)."""
 import asyncio, json, random
